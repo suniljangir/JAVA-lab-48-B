@@ -1,0 +1,33 @@
+class overLoading
+{
+    public void product()
+    {
+        System.out.println("Default product is ZERO");
+    }
+    public void product(int x, int y)
+    {
+        System.out.println("product of both int values is "+(x*y));
+    }
+    public void product(float x, float y)
+    {
+        System.out.println("Product of both float values is "+(x*y));
+    }
+    public void product(int x, int y, int z)
+    {
+        System.out.println("Product of all 3 int values is "+(x*y*z));
+    }
+    public void product(float x, float y, float z)
+    {
+        System.out.println("Product of all 3 float values is "+(x*y*z));
+    }
+
+    public static void main(String[] args) {
+        overLoading obj = new overLoading();
+        obj.product();
+        obj.product(20,300);
+        obj.product(30.5f, 50.5f);
+        obj.product(10,20,30);
+        obj.product(10.30f, 20.60f, 30.10f);
+    }
+
+}
