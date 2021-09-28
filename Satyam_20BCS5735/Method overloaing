@@ -1,0 +1,33 @@
+class Day5P1
+{
+    public void sum()
+    {
+        System.out.println("Default sum = ZERO");
+    }
+    public void sum(int x, int y)
+    {
+        System.out.println("Sum of both int values = "+(x+y));
+    }
+    public void sum(float x, float y)
+    {
+        System.out.println("Sum of both float values = "+(x+y));
+    }
+    public void sum(int x, int y, int z)
+    {
+        System.out.println("Sum of all 3 int values = "+(x+y+z));
+    }
+    public void sum(float x, float y, float z)
+    {
+        System.out.println("Sum of all 3 float values = "+(x+y+z));
+    }
+
+    public static void main(String[] args) {
+        Day5P1 obj = new Day5P1();
+        obj.sum();
+        obj.sum(50,40);
+        obj.sum(20.5f, 90.5f);
+        obj.sum(60,70,30);
+        obj.sum(20.32f, 30.30f, 10.18f);
+    }
+
+}
