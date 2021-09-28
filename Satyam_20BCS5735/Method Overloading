@@ -2,7 +2,7 @@ class OverloadingFUNC
 {
     public void sum()
     {
-        System.out.println("Default sum + ZERO");
+        System.out.println("Default sum = ZERO");
     }
     public void sum(int x, int y)
     {
