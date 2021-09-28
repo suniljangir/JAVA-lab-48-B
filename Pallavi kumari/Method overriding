@@ -1,0 +1,20 @@
+class Teacher{  
+  
+  void teach(){
+      System.out.println("Teacher is teaching");
+      
+  }  
+}  
+ 
+class java extends Teacher{  
+  
+  void teach(){
+      System.out.println("Teacher is teaching Java");
+      
+  }  
+  
+  public static void main(String args[]){  
+ java obj = new java();
+  obj.teach(); 
+  }  
+}  
