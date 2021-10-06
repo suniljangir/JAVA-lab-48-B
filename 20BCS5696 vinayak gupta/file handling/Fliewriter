@@ -1,0 +1,17 @@
+import java.io.FileWriter;
+public class FileWriter
+{
+public static void main(String args[])
+{ try
+{
+FileWriter fw=new FileWriter("E:..\\FILE IO\\Abc1.txt");
+ fw.write("this is an example of filewriter"); 
+fw.close();
+}
+catch(Exception e)
+{
+System.out.println(e);
+} 
+System.out.println("COMPILED SUCESSFULLY");
+}
+}
